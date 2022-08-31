@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Route, ActivatedRoute } from '@angular/router';
+import { faTimes, faEdit} from '@fortawesome/free-solid-svg-icons';
 
 import { MomentService } from 'src/app/services/moment.service';
 import { Moment } from 'src/app/Moment';
@@ -19,6 +20,10 @@ import { environment } from 'src/environments/environment';
 export class MomentComponent implements OnInit {
   moment?: Moment;
   baseApiurl =environment.baseApiurl
+
+  faTimes = faTimes;
+  faEdit= faEdit;
+
 
 
 

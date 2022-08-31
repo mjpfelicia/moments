@@ -1,5 +1,5 @@
 ## Welcome! 👋
-Obrigado por conferir minha codificação de front-end.
+Obrigado por conferir minha codificação.
 
 
 # CursoAngula

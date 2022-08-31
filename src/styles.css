@@ -25,6 +25,7 @@
     --cor-cinza-box-: hsl(220deg 43% 99%);
     --cor-verde-limao: hsl(136, 65%, 51%);
     --cor-vermelho-claro: hsl(0, 94%, 66%);
+    --cor-vermelho-hove:#DC3545;
     --cor-amarelo: #dec129;
     --cor-amarelo-claro: #efefef;
 }
@@ -90,3 +91,41 @@ input[type="submit"]:hover {
     border-left: 3px solid var(--cor-amarelo);
     padding-left: .2em;
 }
+/* button */
+.edit-btn,
+.remove-btn{
+    border: 1px solid var(--cor-amarelo-claro);
+    padding: 0.4em 1em;
+    font-size: 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+    background: var(--cor-branco);
+    transition: 0.4s;
+}
+button fa-icon,
+a fa-icon{
+    margin-right: 0.2em;
+}
+
+.edit-btn,
+.edit-btn path {
+    border-color: var(--cor-azul);
+    color: var(--cor-azul);
+}
+.edit-btn:hover,
+.edit-btn:hover path {
+    color: var(--cor-branco);
+    background-color: var(--cor-azul);
+}
+
+.remove-btn,
+.remove-btn path {
+    border-color: var(--cor-vermelho-claro);
+    color: var(--cor-vermelho-claro);
+}
+.remove-btn:hover,
+.remove-btn:hover path {
+    color: var(--cor-branco);
+    background-color: var(--cor-vermelho-hove);
+}
+   
