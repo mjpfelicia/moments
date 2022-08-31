@@ -1,0 +1,16 @@
+.abaut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+h2, p{
+    margin-bottom: 1em;
+}
+a{
+    text-decoration: underline!important;
+}
+a:hover{
+    color: #dec129;
+}
