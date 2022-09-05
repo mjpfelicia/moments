@@ -37,5 +37,11 @@ removeMoment(id:Number){
   return this.http.delete(url)//
 }
 
+updateMoment(id:Number,formData:FormData): Observable<FormData>{
+   const url = `${this.apiurl}/${id}`;
+   return this.http.put<FormData>(url,formData);
+
+}
+
 
 }

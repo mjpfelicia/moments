@@ -4,12 +4,14 @@ import { MeuMomentsComponent } from './pages/new-moments/meu-moments.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MomentComponent } from './pages/moment/moment.component';
+import { EditMomentComponent } from './pages/edit-moment/edit-moment.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'About', component:AboutComponent},
+  { path: 'About', component: AboutComponent },
   { path: 'moments/new', component: MeuMomentsComponent },
-  {path:'moments/:id', component: MomentComponent}
+  { path: 'moments/edit/:id', component: EditMomentComponent },
+  { path: 'moments/:id', component: MomentComponent }
 ];
 
 @NgModule({
